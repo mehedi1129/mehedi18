@@ -1,0 +1,427 @@
+@media(max-width: 425px){
+    .advisor-area{
+        width: 100%;
+    }
+}
+p {
+    font-family: myriad-pro, sans-serif;
+    font-size: regular;
+}
+
+h4 {
+    font-family: myriad-pro, sans-serif;
+    font-style: bold;
+    font-weight: bold;
+
+}
+
+h1 {
+    font-family: myriad-pro, sans-serif;
+    font-style: regular;
+    font-weight: bolder;
+}
+
+
+.top-bar p {
+    margin: 0px 5px 15px 20px;
+}
+
+.top {
+    margin: 0px 25px;
+}
+
+.font-items {
+    color: #33cccc;
+    float: right;
+
+}
+
+.font-items i {
+    margin-left: 15px;
+}
+
+.bar-area {
+    padding: 10px;
+    height: 50px;
+}
+
+/*topbar part end*/
+/*header part start*/
+.header-area {
+    margin-bottom: 0px;
+    background-color: #33cccc;
+    background-size: cover;
+}
+
+.navbar-nav a {
+    margin-left: 35px;
+    padding-top: 15px;
+    color: white;
+}
+
+.navbar-nav a:hover {
+    color: black;
+}
+
+/*header part end*/
+/*banner area start*/
+.banner-area {
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    width: 100%;
+    position: relative;
+    
+}
+
+.banner-area::before {
+    content: '';
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6901960784313725);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.btn-two {
+    color: #f7f7f7;
+    background-color: rgba(97, 97, 97, 0.17);
+    border: 1px solid #f7f7f7;
+    padding: 8px 25px;
+    border-radius: 4px;
+    font-family: myriad-pro, sans-serif;
+    font-weight: bold;
+
+}
+
+.btn-one {
+    color: #ffffff  ;
+    
+    background-color: rgba(26, 173, 171, 0.68);
+    border: 1px solid #f7f7f7;
+    padding: 8px 30px;
+    border-radius: 4px;
+    font-family: myriad-pro, sans-serif;
+    font-weight: bold;
+
+}
+
+.banner h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.banner p {
+    padding-bottom: 30px;
+}
+
+/*banner area end*/
+/*About-area start*/
+.btn {
+    color: white;
+    background-color: #4dfbfb;
+    font-size: bold;
+    padding: 5px 15px;
+}
+
+.about {
+    margin-top: 50px;
+}
+
+.about h3 {
+    color: #18acab;
+    font-weight: bolder;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.paragraph {
+    padding-bottom: 50px;
+}
+
+.about span {
+    color: black;
+    text-decoration: none;
+}
+
+.photo {
+    margin: 50px;
+margin-bottom: 60px;
+}
+
+.details-guide span {
+    font-weight: bolder;
+}
+
+.guide-area h5 {
+    color: white;
+    font-weight: 400;
+}
+
+.guide-area {
+
+    background-color: #27bfbf;
+    height: 150px;
+}
+
+.btn-five {
+    background-color: #27bfbf;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+
+    font-weight: bold;
+    padding: 7px 16px;
+}
+
+.service-area {
+    text-align: center;
+    margin: 50px;
+}
+
+.service-details p {
+    margin-top: 40px;
+    color: #c0bfc0;
+}
+
+.service-details h5 {
+    color: #27bfbf;
+}
+
+.service-details span {
+    color: black;
+}
+
+/*About-area end*/
+/*services START*/
+.services {
+    margin-top: 50px;
+}
+
+.services-one i {
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: #27bfbf;
+    padding: 15px 25px;
+    color: white;
+    margin-bottom: 30px;
+
+}
+
+.services {
+    text-align: center;
+
+}
+
+.services h5 {
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.services p {
+    color: #7b7a7b;
+}
+
+/*services END*/
+/*Protfolio area*/
+.protfolio span {
+    color: #1bb9c7;
+}
+
+.protfolio {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.protfolio p {
+    color: #7b7a7b;
+    margin-top: 30px;
+}
+
+.protfolio-feachers a {
+    margin-left: 50px;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 25px;
+    color: black;
+
+}
+
+.protfolio-feachers a:hover {
+    color: #1bb9c7;
+}
+
+.protfolio-area {
+    background-color: #f2f2f2;
+}
+
+.photos {
+    margin: 10px 0px;
+}
+
+.protfolio-photos {
+    position: relative;
+}
+.protfolio-photos::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: aqua;
+    opacity: 0;
+}
+
+.photos:hover.protfolio-photos::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: aqua;
+    opacity: .6;
+}
+
+
+.protfolio-photos img {}
+
+.protfolio-photos i {}
+
+/*Protfolio area*/
+/*service area provide*/
+.service-provide i {
+    float: left;
+    margin: 5px;
+    color: #1cb9c7;
+}
+
+.service h4 {
+    color: #1cb9c7;
+    margin-top: 50px;
+}
+
+.service span {
+    color: black;
+}
+
+.service p {
+    margin-top: 60px;
+    color: #737171;
+}
+
+.service-provide p {
+    padding: 0px 30px;
+    color: #737171;
+}
+
+.service-provide {
+    margin-top: 50px;
+    padding-top: 25px;
+}
+
+.progress-bararea h6 {
+    color: #737171;
+}
+
+/*service area provide*/
+/*Advisor area start*/
+
+.img-fluid {
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.clients {
+    text-align: center;
+}
+
+.clients h5 {
+    color: #1cb9c7;
+}
+
+.clients img {
+
+    border-radius: 100%;
+}
+
+/*Advisor area start*/
+/*clients-review start*/
+.clients-review {
+    margin: 50px;
+    text-align: center;
+}
+
+.clients-review p {
+    margin-top: 40px;
+    color: #878484;
+}
+
+.clients h5 {
+    color: #1cb9c7;
+    margin: 5px;
+}
+
+.clients-review span {
+    color: #1cb9c7;
+}
+
+/*clients-review end*/
+/*contact area*/
+.input-field input {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #E9ECEF;
+    margin: 30px;
+}
+
+.input-field textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #E9ECEF;
+    margin: 30px;
+}
+
+submit .btn {
+    background: #1cb9c8;
+    margin: 30px;
+    padding: 7px 25px;
+}
+
+.contact i {
+    float: center;
+    padding: 5px 15px;
+    font-size: 30px;
+    color: #1cb9c8;
+}
+
+.font-icons {
+    margin-top: 55px;
+
+
+}
+
+.contact p {
+    color: #878484;
+    padding-top: 5px;
+}
+
+.contact-area h4{
+
+    font-family: myriad-pro, sans-serif;
+    
+    font-weight: bold;
+    text-align: center;
+
+}
+.contact-area span {
+    color: #1bb9c7;
+}
